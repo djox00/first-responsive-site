@@ -6,6 +6,7 @@
 }
 .nav-link{ 
   color: white;
+  font-size: calc(1% + 0.10vw + 1.5vh); 
 }
 .navbar img {
   width: 110px;
@@ -31,29 +32,28 @@
 .row{
   text-align: center; 
   margin-top: 30px; 
+
 }
  .row img{ 
    margin-top: 70px; 
-   height: 220px;
-   width: 330px;
+   height: auto;
+   width: 95%;
    border-radius: 15px;
    
-   
- }
 
- .nav-item a{ 
-font-size: 17px;
-font-weight: bold;
- font-family: 'Open Sans', sans-serif;
-color: white; 
-margin: 10px;
-
+ 
  }
+ .container-fluid .navbar-toggler{ 
+border-color: transparent;
+ }
+ 
  .footer{ 
-  padding: 10px;
-  background-color: 333333;
+  margin-top: 50px;
+  padding: 5px;
+  background-color: #262626; 
   text-align: center;
-  border-radius: 10px;
+  margin-right: -15px;
+  
 
  }
 
@@ -72,6 +72,8 @@ margin: 10px;
   padding: 0;
   background: #f1f1f1;
   font-family: 'Berkshire Swash', cursive;
+  overflow-x:hidden;
+  
 }
 .box{
   position: relative;
@@ -80,17 +82,23 @@ margin: 10px;
 
 }
 .box img{
-  width: 1000px;
-  height: 450px;
+  width: auto;
+  height: auto;
   filter: blur(1px);
   -webkit-filter: blur(8px);
   border-radius: 100px;
   margin-top: 30px;
+  margin-bottom: 30px;
   overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
 }
 .text{
   color: #fdbc01;
-  font-size: 50px;
+  font-size: calc(100% + 1vw + 1vh); 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -98,6 +106,17 @@ margin: 10px;
   text-shadow: 0 0 15px black;
 }
 
+.row .desc{ 
 
-
+  font-size: calc(1% + 0.40vw + 1vh); 
+  color: white;
+   text-align: justify; 
+   padding: 10px; 
+   margin:auto; 
+   margin-left: 20px; 
+   margin-right: 20px;
+  margin-top: 35px;
+   background-color:rgb(131, 131, 127); 
+   border-radius: 10px;
+}
 
